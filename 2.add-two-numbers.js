@@ -20,47 +20,33 @@
 
 // 每個節點相加，若大於 10 則用 carry 記錄，下個節點要一起計算
 
-var addTwoNumbers = function(l1, l2) {
+var addTwoNumbers = function (l1, l2) {
   // 先建立一個 list 連接串列
-  let list = new ListNode(0)
+  let list = new ListNode(0);
   // 再建立一個 head 指向 list 的頭，也是要輸出的結果
-  let head = list
+  let head = list;
+  let sum = 0;
+  let carry = 0;
 
-  // 每個
-  let sum = 0
-  let carry = 0
+  while (l1 !== null || l2 !== null || carry > 0) {
+    // 把進位的值先加進去 sum，順便初始化 sum
+    sum = carry;
 
-  while (l1 !== null || l2 !== null) {
-    if (carry !== 0) {
-      sum += carry;
-      carry = 0;
+    for (let i in arguments) {
+      if (arguments[i] !== null) {
+        sum += arguments[i].val;
+        arguments[i] = arguments[i].next;
+      }
     }
 
-    if (l1 !== null) sum += l1.val;
-    if (l2 !== null) sum += l2.val;
+    carry = Math.floor(sum / 10);
 
-    carry = sum >= 10 ? Math.floor(sum / 10) : 0;
-    list.val = sum - carry * 10;
-    
-
-    // 為下次迴圈做準備
-
-    // l1, l2 指向下一個節點
-    if (l1 !== null) l1 = l1.next;
-    if (l2 !== null) l2 = l2.next;
-
-    /* 
-      若要繼續迴圈，則先建立 list 的下一個節點，值預設為 0。
-      然後把 list 指向建好的新節點
-    */
-    if (l1 !== null | l2 !== null) {
-      list.next = new ListNode(0);
-      list = list.next;
-    }
-    // 把 sum 歸零
-    sum = 0;
+    // list 的下個節點值為 sum 的個位數，並把 list 指向下一個節點
+    list.next = new ListNode(sum % 10);
+    list = list.next;
   }
 
-  return head;
+  return head.next;
 };
+
 // @lc code=end
