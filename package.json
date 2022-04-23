@@ -1,0 +1,11 @@
+{
+  "scripts": {
+		"clean": "rm -rf ./node_modules",
+    "reset": "pnpm clean && pnpm install"
+  },
+  "engines": {
+    "node": "16.13.2",
+    "pnpm": ">=7.0.0",
+    "npm": "please-use-pnpm"
+  }
+}
