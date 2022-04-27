@@ -26,7 +26,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 #### **二、哪種資料結構解**
 
-counter
+counter + hash table
 
 #### **三、大概會怎麼解**
 
