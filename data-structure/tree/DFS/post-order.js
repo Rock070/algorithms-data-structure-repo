@@ -1,63 +1,52 @@
-
 const tree = {
-  value: 10,
+  value: "F",
   children: [
     {
-      value: 9,
+      value: "B",
       children: [
         {
-          value: 8,
+          value: "A",
+          children: null,
+        },
+        {
+          value: "D",
           children: [
             {
-              value: 6,
+              value: "C",
+              children: null,
+            },
+            {
+              value: "E",
               children: null,
             },
           ],
-        },
-        {
-          value: 5,
-          children: null,
-        },
-        {
-          value: 11,
-          children: null,
         },
       ],
     },
     {
-      value: 7,
+      value: "G",
       children: [
         {
-          value: 1,
+          value: "I",
           children: [
             {
-              value: 4,
-              children: null,
-            },
-            {
-              value: 2,
+              value: "H",
               children: null,
             },
           ],
-        },
-        {
-          value: 3,
-          children: null,
         },
       ],
     },
   ],
 };
-let deepCopy = value => JSON.parse(JSON.stringify(value))
 
-const PostOrder = root => {
+const PostOrder = (root) => {
   let queue = [];
 
   const traversal = (node) => {
     if (node.children !== null) {
       for (let i = 0; i < node.children.length; i++) {
-        let temp = deepCopy(node.children[i])
-        traversal(temp);
+        traversal(node.children[i]);
       }
     }
 
@@ -70,5 +59,6 @@ const PostOrder = root => {
 };
 
 let PostOrderResult = PostOrder(tree);
-console.log('PostOrder Result: ', PostOrderResult);
-// [2, 7, 10, 5, 6, 11, 2, 4, 9, 5];
+console.log("PostOrder Result: ", PostOrderResult);
+
+// ['A', 'C', 'E', 'D', 'B', 'H', 'I', 'G', 'F']

@@ -1,71 +1,62 @@
 const tree = {
-  value: 10,
+  value: "F",
   children: [
     {
-      value: 9,
+      value: "B",
       children: [
         {
-          value: 8,
+          value: "A",
+          children: null,
+        },
+        {
+          value: "D",
           children: [
             {
-              value: 6,
+              value: "C",
+              children: null,
+            },
+            {
+              value: "E",
               children: null,
             },
           ],
-        },
-        {
-          value: 5,
-          children: null,
-        },
-        {
-          value: 11,
-          children: null,
         },
       ],
     },
     {
-      value: 7,
+      value: "G",
       children: [
         {
-          value: 1,
+          value: "I",
           children: [
             {
-              value: 4,
-              children: null,
-            },
-            {
-              value: 2,
+              value: "H",
               children: null,
             },
           ],
-        },
-        {
-          value: 3,
-          children: null,
         },
       ],
     },
   ],
 };
-let deepCopy = value => JSON.parse(JSON.stringify(value))
 
 const preOrder = (root) => {
-  let queue = []
+  let queue = [];
 
-  const traversal = node => {
-    queue.push(node.value)
+  const traversal = (node) => {
+    queue.push(node.value);
     if (node.children !== null) {
       for (let i = 0; i < node.children.length; i++) {
         traversal(node.children[i]);
       }
     }
-  }
+  };
 
   traversal(root);
 
-  return queue
-}
+  return queue;
+};
 
-let preResult = preOrder(tree)
-console.log('PreOrder Result', preResult);
-// [10, 9, 8, 6, 5, 11, 7, 1, 4, 2, 3]
+let preResult = preOrder(tree);
+console.log("PreOrder Result", preResult);
+// ["F", "B", "A", "D", "C", "E", "G", "I", "H"]

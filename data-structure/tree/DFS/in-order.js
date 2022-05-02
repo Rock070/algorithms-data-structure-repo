@@ -47,9 +47,9 @@ const tree = {
     },
   ],
 };
-let deepCopy = value => JSON.parse(JSON.stringify(value))
+let deepCopy = (value) => JSON.parse(JSON.stringify(value));
 
-const InOrder = root => {
+const InOrder = (root) => {
   let queue = [];
 
   const traversal = (node) => {
@@ -60,8 +60,8 @@ const InOrder = root => {
         let temp = deepCopy(node.children[i]);
         traversal(temp);
       }
-      return
-    } 
+      return;
+    }
 
     queue.push(node.value);
   };
@@ -72,6 +72,5 @@ const InOrder = root => {
 };
 
 let InOrderResult = InOrder(tree);
-console.log('InOrder Result: ', InOrderResult);
+console.log("InOrder Result: ", InOrderResult);
 // [2, 7, 10, 5, 6, 11, 2, 4, 9, 5];
-
