@@ -1,11 +1,16 @@
 {
   "scripts": {
-		"clean": "rm -rf ./node_modules",
+    "clean": "rm -rf ./node_modules",
     "reset": "pnpm clean && pnpm install"
   },
   "engines": {
     "node": "16.13.2",
     "pnpm": ">=7.0.0",
     "npm": "please-use-pnpm"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "husky": "^7.0.4"
   }
 }
