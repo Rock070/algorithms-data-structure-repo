@@ -3,7 +3,7 @@
   "scripts": {
     "clean": "rm -rf ./node_modules",
     "reset": "pnpm clean && pnpm install",
-    "release": "standard-version"
+    "release": "standard-version && git push"
   },
   "engines": {
     "node": "16.13.2",
