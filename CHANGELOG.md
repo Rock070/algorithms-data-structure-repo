@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.7...v0.0.8) (2022-05-14)
+
+
+### Features
+
+* **tree:** add route ([8aedb01](https://github.com/Rock070/algorithms-data-structure-repo/commit/8aedb01bdf8cda69b50a4d2c96c091c1bc739187))
+
 ### [0.0.7](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.6...v0.0.7) (2022-05-14)
 
 
