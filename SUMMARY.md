@@ -9,3 +9,4 @@
   * [1497.check-if-array-pairs-are-divisible-by-k](./hash-table/1497.check-if-array-pairs-are-divisible-by-k/index.md)
 * Tree 樹
   * [98.validate-binary-search-tree](./tree/98.validate-binary-search-tree/index.md)
+  * [100.same-tree](./tree/100.same-tree/index.md)
