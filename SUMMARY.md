@@ -10,3 +10,6 @@
 * Tree 樹
   * [98.validate-binary-search-tree](./tree/98.validate-binary-search-tree/index.md)
   * [100.same-tree](./tree/100.same-tree/index.md)
+  * [104.maximum-depth-of-binary-tree](./tree/104.maximum-depth-of-binary-tree/index.md)
+  * [331.verify-preorder-serialization-of-a-binary-tree](./tree/331.verify-preorder-serialization-of-a-binary-tree/index.md)
+
