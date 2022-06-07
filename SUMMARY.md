@@ -12,4 +12,5 @@
   * [100.same-tree](./tree/100.same-tree/index.md)
   * [104.maximum-depth-of-binary-tree](./tree/104.maximum-depth-of-binary-tree/index.md)
   * [331.verify-preorder-serialization-of-a-binary-tree](./tree/331.verify-preorder-serialization-of-a-binary-tree/index.md)
-
+* Dynamic Programming 動態規劃
+  * [1143.Longest Common Subsequence](./dynamic-programming/1143.Longest%20Common%20Subsequence/index.md)
