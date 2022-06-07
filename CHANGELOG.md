@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.11...v0.0.13) (2022-06-07)
+
+
+### Features
+
+* 1137.N-th Tribonacci Number ([a5609dc](https://github.com/Rock070/algorithms-data-structure-repo/commit/a5609dcb104d4ff50dc11a8691ecd526ce7cc81d))
+
 ### [0.0.12](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.11...v0.0.12) (2022-06-07)
 
 
