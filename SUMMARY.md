@@ -14,3 +14,4 @@
   * [331.verify-preorder-serialization-of-a-binary-tree](./tree/331.verify-preorder-serialization-of-a-binary-tree/index.md)
 * Dynamic Programming 動態規劃
   * [1143.Longest Common Subsequence](./dynamic-programming/1143.Longest%20Common%20Subsequence/index.md)
+  * [1137.N-th Tribonacci Number](./dynamic-programming/1137.N-th%20Tribonacci%20Number/index.md)
