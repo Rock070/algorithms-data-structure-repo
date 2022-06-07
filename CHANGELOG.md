@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.10...v0.0.11) (2022-06-07)
+
+
+### Features
+
+* 1143.Longest Common Subsequence ([513c632](https://github.com/Rock070/algorithms-data-structure-repo/commit/513c63251a7058046d1fa54430f224fb8a3b4735))
+
 ### [0.0.10](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.9...v0.0.10) (2022-05-24)
 
 
