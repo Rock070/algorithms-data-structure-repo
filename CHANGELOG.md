@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.13...v0.0.14) (2022-06-12)
+
+
+### Features
+
+* 2222 ([fa3222d](https://github.com/Rock070/algorithms-data-structure-repo/commit/fa3222db8c2f4be78a90cbdf68d009903fb1eec9))
+
 ### [0.0.13](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.11...v0.0.13) (2022-06-07)
 
 
