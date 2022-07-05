@@ -16,3 +16,4 @@
   * [1143.Longest Common Subsequence](./dynamic-programming/1143.Longest%20Common%20Subsequence/index.md)
   * [1137.N-th-Tribonacci-Number](./dynamic-programming/1137.N-th%20Tribonacci%20Number/index.md)
   * [2222. Number of Ways to Select Buildings](./dynamic-programming/2222.%20Number%20of%20Ways%20to%20Select%20Buildings/index.md)
+  * [300. Longest Increasing Subsequence](./dynamic-programming/300.%20Longest%20Increasing%20Subsequence/index.md)
