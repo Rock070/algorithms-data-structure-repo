@@ -14,7 +14,7 @@
  * }
  */
 /**
- * @param {TreeNode} root
+ * @param {TreeNode} rootsss
  * @return {boolean}
  */
 
