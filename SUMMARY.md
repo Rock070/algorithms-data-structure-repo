@@ -18,4 +18,4 @@
   * [2222. Number of Ways to Select Buildings](./src/dynamic-programming/2222.%20Number%20of%20Ways%20to%20Select%20Buildings/index.md)
   * [300. Longest Increasing Subsequence](./src/dynamic-programming/300.%20Longest%20Increasing%20Subsequence/index.md)
 * Math 數學
-  * [1071. Greatest Common Divisor of Strings](./src/math/1071. Greatest Common Divisor of Strings/index.md)
+  * [1071. Greatest Common Divisor of Strings](./src/math/1071.%20Greatest%20Common%20Divisor%20of%20Strings/index.md)
