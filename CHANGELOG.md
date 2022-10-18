@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.19...v0.0.20) (2022-10-18)
+
+
+### Bug Fixes
+
+* **summary:** path bug ([96e47f9](https://github.com/Rock070/algorithms-data-structure-repo/commit/96e47f9f17d732aafdfe0a4c1491d37bbb1f3545))
+
 ### [0.0.19](https://github.com/Rock070/algorithms-data-structure-repo/compare/v0.0.18...v0.0.19) (2022-10-18)
 
 
